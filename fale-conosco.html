@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Tudo Sobre o Google Glass
+    </title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <link rel="stylesheet" type="text/css" href="fale-conosco.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+</head>
+
+<script type="text/javascript" src="site.js"></script>
+
+<body>
+    <div class="superior">
+        <hgroup class="buton">
+            <input type="checkbox" name="check" id="check">
+            <label for="check" class="btn">
+                &#9776;
+            </label>
+        </hgroup>
+        <h1>Google Glass</h1>
+        <nav id="barra">
+        <h1>Menu Principal</h1> 
+            <ul type="none" >
+            <a href="site.html" ><li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/contato.png')">Home</li></a> 
+            <a href="specs.html"><li onmouseover="mudaFoto('imagens/especificacoes.png')"onmouseout="mudaFoto('imagens/contato.png')">Especificações</li></a> 
+            <a href="fotos.html"><li onmouseover="mudaFoto('imagens/fotos.png')"onmouseout="mudaFoto('imagens/contato.png')">Fotos</li></a> 
+            <a href="multimidia.html"><li onmouseover="mudaFoto('imagens/multimidia.png')"onmouseout="mudaFoto('imagens/contato.png')">Multimídia</li></a> 
+            <a href="fale-conosco.html"><li onmouseover="mudaFoto('imagens/contato.png')"onmouseout="mudaFoto('imagens/contato.png')">Fale conosco</li></a> 
+        </ul>
+        </nav>
+
+        
+    </div>
+    <div class="corpo">
+        <header class="cabecario">
+            <h2>A revolução do Google está chegando</h2> 
+            <img src="imagens/contato.png" id="icone">
+        </header> 
+        <br> 
+        <div class="cont">
+            <hgroup>
+                <h3>Fale Conosco > Contato</h3> 
+                <h1>Formulário de Contato</h1> 
+                <h2>por Abner Vidal</h2> 
+                <h3>Atualizado em Março/2022</h3> 
+            </hgroup>
+            <form method="post" class="form" oninput="calc_total()">
+                <fieldset class="usuario">
+                <legend>Identificação do Usuário</legend>
+                    <p><label for="name">Nome:</label> <br> <input type="text" name="name" id="name" placeholder="Nome Completo" class="barra" required></p>
+                    <p><label for="senha">Senha:</label> <br> <input type="password" name="senha" id="senha" placeholder="********" minlength="8" class="barra" required></p>
+                    <p><label for="email">E-mail:</label><br> <input type="email" name="email" id="email" placeholder="nome@exemplo.com" class="barra" required></p>
+                <fieldset id="sexo"> 
+                    <legend>Sexo:</legend>
+                    <input type="radio" name="sexo" id="masc" required> <label for="masc">Masculino</label>
+                    <input type="radio" name="sexo" id="fem" required> <label for="fem">Feminino</label>
+                </fieldset>
+                <p><label for="data">Data de Nascimento:</label> <input type="date" name="data" id="data" required></p>
+                </fieldset>
+
+                <fieldset class="endereco">
+                <legend>Endereço do Usuário</legend>
+                    <p><label for="rua">Logradouro:</label> <br> <input type="text" name="rua" class="barra" required></p>
+                    <p><label for="numero">Número:</label> <br> <input type="number" name="numero" id="numero" class="barra" required></p>
+                    <p><label for="estado">Estado:</label> <br> <input type="text" name="estado" id="estado" class="barra" required></p>
+                    <p><label for="cidade">Cidade:</label> <br> <input type="text" name="cidade" id="cidade" class="barra" required></p>
+                </fieldset>
+
+                <fieldset class="mensagem">
+                <legend>Mensagem do Usuário</legend>
+                   <p><label for="urgencia">Grau de Urgência:</label> <br> Mín<input type="range" name="urgencia" id="urgencia" min="0" max="10" step="1" required>Máx</p>
+                    <p><label for="mensagem">Mensagem:</label> <br> <textarea name="mensagem" id="mensagem"></textarea></p>
+                </fieldset>
+
+                <fieldset class="pedido">
+                    <p><legend>Quero um Google Glass</legend></p>
+                    <p><input type="checkbox" name="ped" id="ped"><label for="ped">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                    <p><label for="cor">Cor: </label><input type="color" name="cor" id="cor"></p>
+                    <p><label for="quant">Quantidade:</label> <input type="number" name="quantidade" id="quant"></p>
+                    <p><label for="total">Preço Total: U$</label> <input type="text" name="total" id="total" readonly></p>
+                </fieldset>
+                <br>
+                <input type="submit" name="comprar" id="enviar">
+                
+            </form>
+        </div>
+        <footer class="rodape">
+            <p>Copyright &copy; 2022 - by Abner Vidal<br>
+            <a href="https://www.linkedin.com/in/abner-vidal-41a56a167/" target="_blank">Linkedin</a>
+            | 
+            <a href="https://github.com/abnervidal" target="_blank">Github</a></p>
+        </footer>
+    </div>
+    
+</body>
+</html>

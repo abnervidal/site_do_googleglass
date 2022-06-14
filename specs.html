@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Tudo Sobre o Google Glass
+	</title>
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<link rel="stylesheet" type="text/css" href="specs.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+</head>
+
+<script type="text/javascript" src="site.js"></script>
+
+<body>
+	<div class="superior">
+		<hgroup class="buton">
+	 		<input type="checkbox" name="check" id="check">
+	 		<label for="check" class="btn">
+	 			&#9776;
+	 		</label>
+		</hgroup>
+		<h1>Google Glass</h1>
+		<nav id="barra">
+	 	<h1>Menu Principal</h1> 
+	 	
+	 	<ul type="none" >
+	 		<a href="site.html" ><li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/especificacoes.png')">Home</li></a> 
+	 		<a href="specs.html"><li onmouseover="mudaFoto('imagens/especificacoes.png')"onmouseout="mudaFoto('imagens/especificacoes.png')">Especificações</li></a> 
+	 		<a href="fotos.html"><li onmouseover="mudaFoto('imagens/fotos.png')"onmouseout="mudaFoto('imagens/especificacoes.png')">Fotos</li></a> 
+	 		<a href="multimidia.html"><li onmouseover="mudaFoto('imagens/multimidia.png')"onmouseout="mudaFoto('imagens/especificacoes.png')">Multimídia</li></a> 
+	 		<a href="fale-conosco.html"><li onmouseover="mudaFoto('imagens/contato.png')"onmouseout="mudaFoto('imagens/especificacoes.png')">Fale conosco</li></a> 
+	 	</ul>
+	 	</nav>
+
+		
+	</div>
+	<div class="corpo">
+		<header class="cabecario">
+	 		<h2>A revolução do Google está chegando</h2> 
+	 		<img src="imagens/especificacoes.png" id="icone"> 
+	 	</header>
+	 	<br> 
+		<div class="cont">
+			<hgroup>
+				<h3>Glass > Especificações</h3> 
+				<h1>Raio-X no Google Glass</h1> 
+	 			<h2>por Abner Vidal</h2> 
+	 			<h3>Atualizado em Março/2022</h3> 
+			</hgroup>
+
+			<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+			<section id="conte">
+				<img src="imagens/glass-esquema-marcado.jpg" usemap="#mapa">
+				<map name="mapa">
+					<area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela">
+					<area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela">
+					<area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela">
+					<area shape="circle" coords="73,52,12" href="google-glass.html#bateria" target="janela">
+				</map>
+				<iframe src="google-glass.html" name="janela" id="janela"></iframe>
+			</section>
+		</div>
+		<footer class="rodape">
+			<p>Copyright &copy; 2022 - by Abner Vidal<br>
+			<a href="https://www.linkedin.com/in/abner-vidal-41a56a167/" target="_blank">Linkedin</a>
+			| 
+			<a href="https://github.com/abnervidal" target="_blank">Github</a></p>
+		</footer>
+	</div>
+	
+</body>
+</html>

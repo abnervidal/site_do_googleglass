@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+section#conte {
+	width: 1000px;
+	margin: auto;
+}
+iframe#janela {
+	width: 450px;
+	height: 300px;
+	border: none;
+	overflow: hidden;
+}

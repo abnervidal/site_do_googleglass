@@ -1,0 +1,211 @@
+body{
+	background-color: #efefef;
+	margin: 0px;
+}
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+header img#icone {
+	position: absolute;
+	right: 40px;
+	top: 65px;
+}
+header.cabecario {
+	border-bottom: 1px black solid;
+	height: 100px;
+	background: url(imagens/glass-logo-peq.png) no-repeat 0px 50px;
+
+}
+header.cabecario h2 {
+	font-family: 'Fredoka', sans-serif;
+	text-shadow: 1px 1px 1px rgba(71, 74, 81, .60);
+	top: 20px;
+	font-size: 20px;
+}
+
+
+div.superior {
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	top: -10px;
+	padding-top: 20px;
+}
+div.superior h1 {
+	font-family: 'Fredoka', sans-serif;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .60);
+	font-size: 30px;
+	color: white;
+	text-align: left;
+	margin: 0px;
+	}
+#barra{
+	display: block;
+}
+#barra ul {
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+#barra li {
+	display: inline;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 5px;
+}
+#barra li:hover {
+	border-radius: 20px;
+	background-color: white;
+	color: black;
+	transition: background-color 0.15s;
+	text-decoration: underline;
+}
+#barra h1 {
+	display: none;
+}
+#barra a {
+	color: white;
+	text-decoration: none;
+}
+div.cont {
+	background-color: #FDF04B;
+	border-radius: 25px;
+	padding: 80px;
+	margin: auto 0px -50px 0px;
+	font-family: 'Fredoka', sans-serif;
+	padding-top: 20px;
+}
+.pg {
+	text-decoration: none;
+}
+table{
+	width:60%;
+	height: 200px; 
+	border: 1px solid black;
+	border-spacing: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+table tr {
+	padding: 5px;
+}
+table td {
+	border: 1px solid #4d4d4d;
+	padding: 5px;
+}
+table td.ce {
+	color: white;
+	background-color: #4d4d4d;
+}
+table td.cd {
+	background-color: white;
+}
+table caption {
+	text-align: center;
+	font-size: 20px;
+}
+table caption span {
+	display: block;
+	float: right;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.foto01 {
+	position: relative;
+	border: 8px solid white;
+}
+.foto01 figcaption {
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	opacity: 0;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+.foto01 img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.foto01 figcaption:hover {
+	opacity: 1;
+}
+div.corpo {
+	
+	background-color: white;
+	padding: 0px;
+	margin: -20px auto -10px auto;
+}
+footer.rodape {
+	clear: both;
+	border-top: 1px solid black ;
+}
+footer.rodape p {
+	text-align: center;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h3 {
+	font-size: 15px;
+	color: #777;
+}
+hgroup h2 {
+	font-size: 17px;
+	color: #222;
+}
+.filme-site {
+	width: 70%;
+}
+
+
+input[type=checkbox] + label {
+	font-size: 40px;
+	color: white;
+	float: right;
+	margin-right: 40px;
+	display: none;
+}
+#check {
+	display: none;
+}
+
+@media(max-width: 850px){
+	input[type=checkbox] + label {
+		display: block;
+	}
+	#barra li {
+		text-align: center;
+		display: block;
+		margin: -1px;
+		border-radius: 0px;
+	}
+	#barra ul {
+		width: 100%;
+		margin-top: 85px;
+		left: -110%;
+
+	}
+	img#icone {
+		display: none;
+	}
+	
+}
+
+
+
+
+

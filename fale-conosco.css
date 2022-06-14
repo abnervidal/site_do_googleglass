@@ -1,0 +1,28 @@
+@charset= "UTF-8";
+
+form {
+	margin: auto;
+}
+input {
+	border-radius: 5px;
+
+}
+input.barra {
+	width: 800px;
+	height: 30px;
+}
+input#enviar {
+	width: 1190px;
+	height: 30px;
+	background-color: white;
+}
+legend {
+	font-size: 30px;
+}
+fieldset {
+	border-radius: 10px;
+	padding-left: 50px;
+}
+fieldset#sexo {
+	width: 250px;
+}
